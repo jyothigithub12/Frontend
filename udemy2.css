@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Forum", serif ;
+}
+.first{
+    background-color: #f08e80;
+    min-height: 90vh;
+    display: inline-block;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; 
+    padding: 0px 32px;
+    margin: 0px;                          
+}
+
+.navbar .links a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.navbar p{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.navbar .btn{
+    background-color: white;
+    color: #f08e80;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+
+.navbar .btn:hover{
+    opacity: 0.8;
+}
+
+.first-content{
+    padding: 0 15%;
+}
+
+.tagline{
+    color: white;
+    font-size: 3rem;
+    padding: 32px 0;
+    width:90%;
+}
+
+.two-col-section{
+    color: white;
+}
+
+.two-col-section > p {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    color: white;
+}
+
+.two-col-section .skills{
+    width: 50%;
+    float: left;
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.two-col-section .skills li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: left;
+    margin: 5px 0;
+}
+
+.blog-section{
+    padding: 64px 0;
+    background-color: white;
+}
+.blog-content{
+    padding: 0 15%;
+}
+
+.blog-post p{
+    color: black;
+    margin: 8px 0;
+}
+
+.blog-post{
+    width: 50%;
+    float:left;
+}
+
+.blog-title{
+    font-size: 1.2rem;
+
+}
+
+.blog-text{
+    font-size: 0.8rem;
+    
+}
+
+.blog-post .blog-date{
+    font-size: 0.6rem;
+    color: rgb(152, 148, 148);
+    margin-bottom: 30px;
+}
+
+.event-section{
+    padding: 64px 0;
+    background-color: #fdf0e6;
+    display: inline-block;
+    width: 100%;
+}
+
+.event-content{
+    padding: 0 15%;
+}
+
+.event-post{
+    width: 50%;
+    float:left;
+}
+
+.event-post .blog-date{
+    font-size: 0.6rem;
+    color: rgb(152, 148, 148);
+    margin-bottom: 30px;
+}
+
+.event-post p{
+    color: black;
+    margin: 8px 0;
+}
+
+.footer-section{
+    background-color: black;
+    padding: 60px;
+    width: 100%;
+}
+
+.footer-content{
+    color: white;
+    text-align: center;
+    
+}
+
+.footer-section img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+}
